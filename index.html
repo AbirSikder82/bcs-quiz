@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Intellect Craft</title>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="home-container">
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="Quiz App logo" class="logo">
+            </div>
+            <h1>Intellect Craft</h1>
+        </header>
+        <section class="content-container">
+            <section class="options">
+                <button onclick="redirectToCategories()"><i class="fa-regular fa-lightbulb"></i>Quiz</button>
+                <button onclick="redirectToQuestions()"><i class="fa-solid fa-question"></i>Questions</button>
+                <button onclick="redirectToExam()"><i class="fa-solid fa-book-open-reader"></i>Exam</button>
+                <button onclick="redirectToPdfCollections()"><i class="fa-solid fa-file-pdf"></i>PDF Collections</button>
+                <button onclick="redirectToVideoCollections()"><i class="fa-solid fa-video"></i>Video Collections</button>
+                <button onclick="redirectToRequestForm()"><i class="fa-solid fa-envelope"></i>Request for Question/Answer</button>
+                <button onclick="redirectToRateUs()"><i class="fa-solid fa-star"></i>Rate Us</button>
+            </section>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-links"><a href="https://sites.google.com/view/abirsikder/home">Privacy Policy</a></div>
+        <p>&copy;2023 Online Quiz App. All rights reserved</p><br>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/sikdermdabir" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/c/MdAbirSikder" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/abirsikder82/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script>
+        function redirectToCategories() {
+            //Redirect to the Category page
+            window.location.href='category.html';
+        }
+        function redirectToRequestForm() {
+            //Redirect to the Request Form page
+            window.location.href='request-form.html'
+        }
+        function redirectToReview() {
+            //Redirect to the Review page
+            window.location.href='review.html'
+        }
+        function redirectToQuestions() {
+            //Redirect to the Questions page
+            window.location.href='question-page.html'
+        }
+        function redirectToPdfCollections() {
+            //Redirect to the Pdf Collections page
+            window.location.href='pdf-list-page.html'
+        }
+        function redirectToVideoCollections() {
+            //Redirect to the Video Collections page
+            window.location.href='video-page.html'
+        }
+        function redirectToExam() {
+            //Redirect to the Exam Option page
+            window.location.href='exam-options.html'
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/732e3e5385.js" crossorigin="anonymous"></script>
+</body>
+</html>
