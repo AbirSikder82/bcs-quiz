@@ -12,20 +12,67 @@
         <header>
             <h1>Videos</h1>
         </header>
-        <h2>Sports</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UQnETYM0s2s?si=6W77EXrFjZJtwIGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_9dkDmmQYuA?si=0rKralIeuMimQ9M7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-thumbnail" onclick="redirectYoutube1()">
+        <img src="General Knowledge questions and answers 2022, BCS prostuti, Cakrir prostuti, Quiz, International, Part-1.jpg" alt="Video 1 Thumbnail" height="230">
+        <button class="play-button" onclick="redirectYoutube1()">▶</button>
+    </div>
+    <div class="video-thumbnail" onclick="redirectYoutube2()">
+        <img src="General Knowledge questions and answers 2022, BCS prostuti, Cakrir prostuti, Quiz, International, Part-2.jpg" alt="Video 2 Thumbnail" height="230">
+        <button class="play-button" onclick="redirectYoutube2()">▶</button>
+    </div>
+    <div class="video-thumbnail" onclick="redirectYoutube3()">
+        <img src="General Knowledge questions and answers 2022, BCS prostuti,, Quiz, (Sports), Part 2.jpg" alt="Video 2 Thumbnail" height="230">
+        <button class="play-button" onclick="redirectYoutube3()">▶</button>
+    </div>
+    <div class="video-thumbnail" onclick="redirectYoutube4()">
+        <img src="General Knowledge questions and answers 2022, BCS prostuti,, Quiz, Science&Tecnology, Part-1.jpg" alt="Video 2 Thumbnail" height="230">
+        <button class="play-button" onclick="redirectYoutube4()">▶</button>
+    </div>
+    <div class="video-thumbnail" onclick="redirectYoutube5()">
+        <img src="General Knowledge questions and answers 2022, BCS prostuti,, Quiz, Sports, Part-1.jpg" alt="Video 2 Thumbnail" height="230">
+        <button class="play-button" onclick="redirectYoutube5()">▶</button>
+    </div>
+    <div class="button">
+        <button onclick="redirectToHomePage()"><i class="fa-solid fa-house"></i>Home</button>
+    </div>
     </div>
     <footer class="footer">
-        <div class="footer-links"><a href="https://sites.google.com/view/abirsikder/home">Privacy Policy</a></div>
-        <p>&copy;2023 Online Quiz App. All rights reserved</p><br>
         <div class="social-icons">
             <a href="https://www.facebook.com/sikdermdabir" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.youtube.com/c/MdAbirSikder" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             <a href="https://www.instagram.com/abirsikder82/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <p>&copy;2023 BCS Quiz App. All rights reserved</p>
+        </div>
+</footer>
 </script>
 <script src="https://kit.fontawesome.com/732e3e5385.js" crossorigin="anonymous"></script>
+<script>
+    function redirectYoutube1(videoId) {
+        //Redirect to the Youtube
+        window.location.href='https://www.youtube.com/watch?v=LjIh6CWbobI';
+    }
+    function redirectYoutube2(videoId) {
+        //Redirect to the Youtube
+        window.location.href='https://www.youtube.com/watch?v=cHeMuG5kobE';
+    }
+    function redirectYoutube3(videoId) {
+        //Redirect to the Youtube
+        window.location.href='https://www.youtube.com/watch?v=UQnETYM0s2s';
+    }
+    function redirectYoutube4(videoId) {
+        //Redirect to the Youtube
+        window.location.href='https://www.youtube.com/watch?v=d9Wpujd5k7o';
+    }
+    function redirectYoutube5(videoId) {
+        //Redirect to the Youtube
+        window.location.href='https://www.youtube.com/watch?v=_9dkDmmQYuA';
+    }
+    function redirectToHomePage() {
+        //Redirect to the Home
+        window.location.href='index.html';
+    }
+</script>
 </body>
 </html>

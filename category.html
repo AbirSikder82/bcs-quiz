@@ -8,27 +8,48 @@
     <title>Categories</title>
 </head>
 <body>
+    <div class="picture"></div>
     <div class="category-container">
-        <div class="picture"></div>
         <h1>Select a Category</h1>
         <div class="category-boxes">
-            <div class="category-box category-general"><a href="quiz.html?category=general"><i class="fa-regular fa-lightbulb"></i>General Knowledge</a>
+            <div class="category-box category-general" onclick="redirectToCategoryGeneral()"><a href="quiz.html?category=general"><i class="fa-regular fa-lightbulb"></i>সাধারণ জ্ঞান</a>
             </div>
-            <div class="category-box category-science"><a href="quiz.html?category=science">Science</a>
+            <div class="category-box category-science" onclick="redirectToCategoryScience()"><a href="quiz.html?category=science"><i class="fa-solid fa-microscope"></i>বিজ্ঞান ও প্রযুক্তি</a>
             </div>
-            <div class="category-box category-sports"><a href="quiz.html?category=sports">Sports</a>
+            <div class="category-box category-sports" onclick="redirectToCategorySports()"><a href="quiz.html?category=sports"><i class="fa-solid fa-table-tennis-paddle-ball"></i>খেলাধুলা</a>
+            </div>
+            <div class="category-box category-bangladesh" onclick="redirectToCategoryBangladesh()"><a href="quiz.html?category=bangladesh"><i class="fa-solid fa-earth-americas"></i>বাংলাদেশ বিষয়াবলি</a>
             </div>
             <!-- Add more-->
         </div>
         <footer class="footer">
-            <div class="footer-links"><a href="https://sites.google.com/view/abirsikder/home">Privacy Policy</a></div>
-            <p>&copy;2023 Online Quiz App. All rights reserved</p><br>
             <div class="social-icons">
                 <a href="https://www.facebook.com/sikdermdabir" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.youtube.com/c/MdAbirSikder" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://www.instagram.com/abirsikder82/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-        </footer>
+            <div class="footer-bottom">
+                <p>&copy;2023 BCS Quiz App. All rights reserved</p>
+            </div>
+    </footer>
+    <script>
+        function redirectToCategoryGeneral() {
+            //Redirect to the Category General
+            window.location.href='quiz.html?category=general'
+        }
+        function redirectToCategoryScience() {
+            //Redirect to the Category Science
+            window.location.href='quiz.html?category=science'
+        }
+        function redirectToCategorySports() {
+            //Redirect to the Category Sports
+            window.location.href='quiz.html?category=sports'
+        }
+        function redirectToCategoryBangladesh() {
+            //Redirect to the Category Bangladesh
+            window.location.href='quiz.html?category=bangladesh'
+        }
+    </script>
     </div>
     <script src="https://kit.fontawesome.com/732e3e5385.js" crossorigin="anonymous"></script>
 </body>

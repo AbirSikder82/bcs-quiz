@@ -10,27 +10,31 @@
 <body>
     <div class="quiz-container">
         <div id="background-image"></div>
-        <h1> Intellect Craft </h1>
+        <header>
+            <h1> BCS Quiz </h1>
+        </header>
         <!--Question Section-->
         <div class="question-section" id="questionSection">
         <!--Questions -->
         </div>
         <!--Next Button-->
-        <button class="next-button" onclick="nextQuestion()">Next
+        <button class="next-button" id="next-button" onclick="nextQuestion()">Next
         </button>
+        <a class="finish-button" id="finish-button" href="category.html">OK</a>
         <!--Score Section-->
         <div id="scoreSection" style="display: none;">
             <p id="scoreText">Your Score: <span id="userScore">0</span></p>
         </div>
         <footer class="footer">
-            <div class="footer-links"><a href="https://sites.google.com/view/abirsikder/home">Privacy Policy</a></div>
-            <p>&copy;2023 Online Quiz App. All rights reserved</p><br>
             <div class="social-icons">
                 <a href="https://www.facebook.com/sikdermdabir" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.youtube.com/c/MdAbirSikder" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://www.instagram.com/abirsikder82/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-        </footer>
+            <div class="footer-bottom">
+                <p>&copy;2023 BCS Quiz App. All rights reserved</p>
+            </div>
+    </footer>
     </div>
     <script>
         //Load questions when the page loads
