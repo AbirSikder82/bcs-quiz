@@ -219,6 +219,112 @@ const categories = {
         },
         // Add more questions for the "general" category as needed
     ],
+    english: [
+        {
+            text: 'What kind of parts of speech is the word "Successful"?',
+            options: ['Noun', 'Adjective', 'Adverb', 'Verb'],
+            correctAnswer: 'Adjective'
+        },
+        {
+            text: 'One, Some, Any, Many, None are --',
+            options: ['personal pronoun', 'indefinite pronoun', 'distributive pronoun', 'relative pronoun'],
+            correctAnswer: 'indefinite pronoun'
+        },
+        {
+            text: 'What will be the plural form of "Deer"?',
+            options: ['Deers', 'Deeres', 'None', 'Deer'],
+            correctAnswer: 'Deer'
+        },
+        {
+            text: '"Five hundreds people went there." Identify the wrong parts of speech.',
+            options: ['five', 'hundreds', 'people', 'went'],
+            correctAnswer: 'hundreds'
+        },
+        {
+            text: 'He can speak English like __ Englishman',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 'an'
+        },
+        {
+            text: 'She will go and see __ time.',
+            options: ['a', 'an', 'the', 'no article'],
+            correctAnswer: 'no article'
+        },
+        {
+            text: '"I am as strong as he." Here "strong" is a degree of __',
+            options: ['Positive', 'Comparative', 'Superlative', 'None of the above'],
+            correctAnswer: 'Positive'
+        },
+        {
+            text: 'Degree is a part of __',
+            options: ['Adjective', 'Adverb', 'Pronoun', 'Interjection'],
+            correctAnswer: 'Adjective'
+        },
+        {
+            text: 'It is high time we __ something for our country.',
+            options: ['do', 'did', 'must do', 'should do'],
+            correctAnswer: 'did'
+        },
+        {
+            text: 'In case you study well, you __',
+            options: ['pass', 'passed', 'will pass', 'could pass'],
+            correctAnswer: 'will pass'
+        },
+        // Add more questions for the "general" category as needed
+    ],
+    math: [
+        {
+            text: '৬৫৫৮ এর সাথে কোন ক্ষুদ্রতম সংখ্যা যোগ করলে যোগফল একটি পূর্ণবর্গ সংখ্যা হবে?',
+            options: ['২', '-২', '০', '৩ '],
+            correctAnswer: '৩ '
+        },
+        {
+            text: 'নিচের কোনটি মৌলিক সংখ্যা?',
+            options: ['৭২', 'কোনোটিই নয়', '৮৭', '৬৩'],
+            correctAnswer: 'কোনোটিই নয়'
+        },
+        {
+            text: '99999 এর সঙ্গে কোন ক্ষুদ্রতম সংখ্যা যোগ করলে যোগফল 2, 3, 4, 5 এবং 6 দ্বারা নিঃশেষে বিভাজ্য হবে?',
+            options: ['21', '39', '33', '29 '],
+            correctAnswer: '21'
+        },
+        {
+            text: 'দুটি সংখ্যার গুনফল ১৫৩৬, সংখ্যা দুটির ল.সা.গু. ৯৬ হলে গ.সা.গু. কত?',
+            options: ['৩২', '১২', '১৬', '২৪ '],
+            correctAnswer: '১৬'
+        },
+        {
+            text: '৬০ মিটার দৈর্ঘ্য বিশিষ্ট একটি নলকে ৩:৭:১০ অনুপাতে টুকরা করা হয়েছে। ছোট টুকরাটি কত মিটার?',
+            options: ['৯', '১০', '৭', '৮'],
+            correctAnswer: '৯'
+        },
+        {
+            text: 'খোকন ও মন্টুর আয়ের অনুপাত ৯:৪। খোকনের আয় ৯০ টাকা হলে মন্টুর আয় কত?',
+            options: ['৪৮', '৬৫', '৪০', '৬০'],
+            correctAnswer: '৪০'
+        },
+        {
+            text: '১০ বছর আগে করিমের বয়স ছিল রহিমের বয়সের অর্ধেক। যদি তাদের বর্তমান বয়সের অনুপাত ৩:৪ হয়, তবে বর্তমানে তাদের মোট বয়স কত?',
+            options: ['৩৫ বছর', '২৩ বছর', '২৮ বছর', '৪৫ বছর'],
+            correctAnswer: '৩৫ বছর'
+        },
+        {
+            text: 'পরীক্ষায় "ক" এর প্রাপ্ত নম্বর যথাক্রমে ৭০, ৮৫ ও ৭৫। চতুর্থ পরীক্ষায় তাকে কত নম্বর পেতে হবে যেন তার গড় প্রাপ্ত নম্বর ৮০ হয়?',
+            options: ['৮২', '৮৮', '৯০', '৭৮'],
+            correctAnswer: '৯০'
+        },
+        {
+            text: '১৫ জনের কোন কাজের অর্ধেক করতে ২০ দিন লাগে, কত দিনে ২০ জন লোক পুরো কাজটি শেষ করতে পারবে?',
+            options: ['৩০', '৪০', '২০', '১৫'],
+            correctAnswer: '৩০'
+        },
+        {
+            text: 'একটি চৌবাচ্চা তিনটি নল দিয়ে যথাক্রমে ১০, ১২ ও ১৫ ঘন্টায় পূর্ণ হতে পারে। তিনটি নল একসঙ্গে খুলে দিলে চৌবাচ্চার অর্ধেক পূর্ণ হতে কত সময় লাগবে?',
+            options: ['৬ ঘন্টা', '৪ ঘন্টা', '৩ ঘন্টা', '২ ঘন্টা'],
+            correctAnswer: '২ ঘন্টা'
+        },
+        // Add more questions for the "general" category as needed
+    ],
     // Add more categories and questions as needed
 };
 
