@@ -352,8 +352,8 @@ header h1 {
     margin-top: 20px;
 }
 .category-box {
-    width: 160px;
-    height: 90px;
+    width: 100px;
+    height: 80px;
     margin: 10px;
     display: flex;
     align-items: center;
@@ -369,12 +369,13 @@ header h1 {
 .category-box a {
     text-decoration: none;
     color: #fff;
+    font-size: 12px;
 }
 .category-box i {
     display: block;
     justify-content: center;
-    padding: 10px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 15px;
     animation: rotate 2s ease-in-out;
 }
 .category-box i:hover {
